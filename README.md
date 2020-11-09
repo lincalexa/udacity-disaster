@@ -39,8 +39,6 @@ Libraries Included:
 * data/process_data.py - Python file to gather, clean and engineer the raw data
 * data/disaster_categories.csv - raw disaster categories data in CSV format
 * data/disaster_messages.csv - raw disaster message data in CSV format
-* data/DisasterResponse.db - Sqlite database containing the cleaned disaster data
-* models/classifier.pkl - Pickle file containing the disaster classifier predictive model
 * models/train_classifier.py - Python file to train and test the predictive model
 
 ## How to use
@@ -52,8 +50,10 @@ Libraries Included:
 
     - To run ETL pipeline that cleans data and stores in database
         `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
+        * This creates the DisasterResponse.db sqlite database
     - To run ML pipeline that trains classifier and saves
         `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
+        * This creates the model pickle file classifier.pkl
 
 2. Run the following command in the app's directory to run your web app.
     `python run.py`
