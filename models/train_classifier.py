@@ -1,7 +1,10 @@
+import nltk
+nltk.download('punkt')
+nltk.download('wordnet')
+
 import sys
 import pandas as pd
 from sqlalchemy import create_engine
-import nltk
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 from sklearn.model_selection import train_test_split

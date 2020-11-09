@@ -3,7 +3,7 @@ Udacity Data Scientist - Disaster project
 
 
 ## Project Motivation
-Take a data set from raw data to a web application with a predictive model and visualizations.  Demonstrate an understanding of the full end to end process of gathering raw data, performing any necessary data cleaning and feature engineering via an ETL pipeline, and building a predictive model via an ML pipeline.  Then take that model and use it in a web application to make predictions and use the cleaned data for visualizations on the web site.
+Take a data set from raw data to a web application with a predictive model and visualizations.  Demonstrate an understanding of the full end to end process of gathering raw data, performing any necessary data cleaning and feature engineering via an ETL pipeline, and building a predictive model via an ML pipeline.  Then take that model and use it in a web application to make predictions. Use the cleaned data for visualizations on the web site.
 
 The data for this project is disaster data from Figure Eight.  The project uses 'message' and 'category' datasets.
 
@@ -18,7 +18,7 @@ Libraries Included:
 * nltk
 * nltk.stem - WordNetLemmatizer
 * nltk.tokenize - word_tokenize
-* flask = Flask, render_template, request, ,jsonify
+* flask - Flask, render_template, request, ,jsonify
 * sklearn.externals - jbolib
 * sqlalchemy - create_engine
 * sys
